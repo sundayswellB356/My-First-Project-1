@@ -41,5 +41,10 @@ body{
                 .active{
                     border-bottom:1px solid #3a3a3a;
                 }
+                #hero-image{
+                    height:600px;
+                    width:100%;
+                    background: url ("../workspace/My-First-Project-1/assets/images/coronavirus-image.jpg")no repeat center center;
+                }
 
                 
