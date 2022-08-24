@@ -46,6 +46,7 @@ body{
     width:100%;
     overflow:hidden;
     background: url('../images/gettyimages-1212370347-612x612.jpg')no-repeat center center;
+   
     position:relative;
    
     animation-name:coronavirus-zoom;
@@ -83,6 +84,7 @@ body{
                 background-color:rgba(241,109,107,.7);
                 bottom:30px;
                 right:150px;
+                
                 position:absolute;
                  }
 
