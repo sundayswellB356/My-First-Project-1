@@ -47,18 +47,21 @@ body{
     background: url ("https://media.istockphoto.com/photos/blue-picture-id1213090148?k=20&m=1213090148&s=612x612&w=0&h=1Wbfgx0V9US_rIItUbGZUHHkj_TBwGJ6C9C_sU_PcNk=")no repeat center center;
     }
 
-    #coronavirus-outer {
+    #coronavirus-image-outer {
         height:600px;
         width:100%;
-        oveflow:hidden;
-        }
+        overflow:hidden;
+        
+    animation-name:coronavirus-zoom
+    animation-duration 5s;
+    animation-fill-mode:forwards
+    }
+
 
 
 /*creates the level of zoom for coronavirus image*/
 
-animation-name:coronavirus-zoom
-animation-duration:5s
-animation-fill-mode:forwards
+
 
 @keyframes coronavirus-zoom {
 
