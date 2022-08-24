@@ -45,12 +45,12 @@ body{
     height:600px;
     width:100%;
     overflow:hidden;
-    background: url ("../workspace/My-First-Project-1/assets/images/coronavirus-image.jpg")no repeat center center;
+    background: url("../images/pexels-tim-mossholder-4515086.jpg") no-repeat center center;
     position:relative;
    
-    animation-name:coronavirus-zoom
-    animation-duration 5s;
-    animation-fill-mode:forwards
+    animation-name:coronavirus-zoom;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
     }
 
 /*creates the level of zoom for coronavirus image*/
