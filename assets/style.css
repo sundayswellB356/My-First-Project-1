@@ -5,7 +5,7 @@
     margin:0;
     padding:0;
     border:none;
-}
+    }
 
 body{
     font-family:Roboto,sans-serif;
@@ -13,38 +13,74 @@ body{
     color:#3a3a3a;
     }
 
-    #logo {
-        float:left;
-        font-size:280%;
+    #logo{
+    float:left;
+    font-size:280%;
+    }
+
+    #menu{
+    font-size:110%;
+    letter-spacing:4px;
+    }
+     #menu logo{
+     line-height:75px;
+     }
+           
+     #menu li {
+     float:right;
+    list-style-type:none;
+     margin-right:30px;
+     }
+     #menu a {
+    text-decoration:none;
+     color:inherit;
+     }
+     #menu a:hover{
+     border-bottom:1px solid #3a3a3a;
+    }
+    .pandemic{
+     border-bottom:1px solid #3a3a3a;
+     }
+    #coronavirus-image{
+    height:600px;
+    width:100%;
+    background: url ("https://media.istockphoto.com/photos/blue-picture-id1213090148?k=20&m=1213090148&s=612x612&w=0&h=1Wbfgx0V9US_rIItUbGZUHHkj_TBwGJ6C9C_sU_PcNk=")no repeat center center;
+    }
+
+    #coronavirus-outer {
+        height:600px;
+        width:100%;
+        oveflow:hidden;
         }
 
-        #menu{
-            font-size:110%;
-            letter-spacing:4px;
-            }
-            #menu logo{
-            line-height:75px;
-            }
-           
-            #menu li {
-                float:right;
-                list-style-type:none;
-                margin-right:30px;
-            }
-            #menu a {
-                text-decoration:none;
-                color:inherit;
-                }
-                #menu a:hover{
-                    border-bottom:1px solid #3a3a3a;
-                }
-                .active{
-                    border-bottom:1px solid #3a3a3a;
-                }
-                #coronavirus-image{
-                    height:600px;
-                    width:100%;
-                    background: url ("../workspace/My-First-Project-1/assets/images/coronavirus-image.jpg")no repeat center center;
-                }
+
+/*creates the level of zoom for coronavirus image*/
+
+animation-name:coronavirus-zoom
+animation-duration:5s
+animation-fill-mode:forwards
+
+@keyframes coronavirus-zoom {
+
+    from{
+
+        transform:scale(1);
+        }       
+        to {
+
+         transform:scale (1.1);
+        }
+    
+        
+        }
+
+
+
+
+
+
+
+
+
 
                 
